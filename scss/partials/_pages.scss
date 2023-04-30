@@ -1,0 +1,109 @@
+#habitaciones-column img {
+	max-width:500px;
+	padding:15px;
+	float: center;
+}
+
+
+#habitaciones-column h1, h2 {
+	text-align: left;
+	padding: 8px;
+}
+
+#habitaciones-column p {
+	text-align: left;
+	padding: 8px;
+}
+
+#page-info {
+	text-align: center;
+	margin: 0 auto;
+	color: #4a4a4a;
+	font-size: 16px;
+	line-height: 1;
+	
+}
+
+.hero-pages-servicios {
+
+	width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pic-9.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 250px;
+	display: grid;
+	place-items: center;
+
+}
+
+@media only screen and (min-width: 768px) { .hero-pages-servicios { height: 250px; }}
+@media only screen and (min-width: 992px) {.hero-pages-servicios { height: 300px;}}
+@media only screen and (min-width: 1200px) {.hero-pages-servicios { height: 350px;}}
+
+
+.hero-pages-habitaciones {
+
+	width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pic-2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 250px;
+	display: grid;
+	place-items: center;
+
+}
+
+@media only screen and (min-width: 768px) { .hero-pages-habitaciones { height: 250px; }}
+@media only screen and (min-width: 992px) {.hero-pages-habitaciones { height: 300px;}}
+@media only screen and (min-width: 1200px) {.hero-pages-habitaciones { height: 350px;}}
+
+
+.hero-pages-galeria {
+
+	width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pic-1.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 250px;
+	display: grid;
+	place-items: center;
+
+}
+
+@media only screen and (min-width: 768px) { .hero-pages-galeria { height: 250px; }}
+@media only screen and (min-width: 992px) {.hero-pages-galeria { height: 300px;}}
+@media only screen and (min-width: 1200px) {.hero-pages-galeria { height: 350px;}}
+
+
+.galeria-container{
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.galeria-columna{
+    flex: 25%;
+    padding: 3px;
+}
+
+.galeria-columna img{
+    margin-top: 5px;
+}
+
+@media (max-width: 800px){
+    .galeria-columna{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .galeria-columna{
+        flex: 100%;
+    }
+}
