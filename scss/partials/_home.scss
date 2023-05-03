@@ -1,76 +1,97 @@
-#home-text img {
-	max-width:500px;
-	padding:15px;
-	float: center;
-}
-
-
-
-#home-habitaciones img {
-	max-width:300px;
-	padding:15px;
-	float: center;
-}
-
-/*#home-habitaciones {
-	border:3px;
-	border-radius: 10px;
-	border-color: beige;
-}*/
-
-#home-habitaciones h1, h2 {
-	text-align: left;
-	padding: 8px;
-}
-
-#home-habitaciones p {
-	text-align: left;
-	padding: 8px;
-}
-
-
-#home-servicios img {
-	max-width:300px;
-	padding:15px;
-	float: center;
-}
-
-#home-servicios h1, h2 {
-	text-align: left;
-	padding: 8px;
-}
-
-#home-servicios p {
-	text-align: left;
-	padding: 8px;
-}
-
-#home-galeria img {
-	max-width:300px;
-	padding:15px;
-	float: center;
-}
-
-#home-galeria h1, h2 {
-	text-align: left;
-	padding: 8px;
-}
-
-#home-galeria p {
-	text-align: left;
-	padding: 8px;
-}
-
- /* hero */
-
- .hero-img {
-
-	background-image: url("../img/pic-7.jpg");
-	height: 700px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	/*padding: 50px 30px;
-	margin-bottom: 50px;*/
-}
+#home-text {
+    padding-top: 30px;
+ }
+ 
+ 
+ @media only screen and (min-width: 600px) { #home-text { padding-top: 0px; }}
+ @media only screen and (min-width: 768px) { #home-text { padding-top: 0px;}}
+ @media only screen and (min-width: 992px) {#home-text { padding-top: 0px; padding-left: 30px;}}
+ @media only screen and (min-width: 1200px) {#home-text { padding-top: 0px; padding-left: 30px;}}
+ 
+ 
+ #home-text p {
+    text-align: left;
+    font: size 11px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:rgb(77, 77, 77);
+    text-align: justify;
+    line-height: 1.7;
+ }
+ 
+ #home-text img {
+    max-width:500px;
+    padding:15px;
+    float: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ #home-habitaciones img {
+    max-width:300px;
+    padding:15px;
+    float: center;
+ }
+ 
+ 
+ /*#home-habitaciones {
+    border:3px;
+    border-radius: 10px;
+    border-color: beige;
+ }*/
+ 
+ 
+ #home-habitaciones h1, h2 {
+    text-align: left;
+    padding: 8px;
+ }
+ 
+ 
+ #home-habitaciones p {
+    text-align: left;
+    padding: 8px;
+ }
+ 
+ 
+ 
+ 
+ #home-servicios img {
+    max-width:300px;
+    padding:15px;
+    float: center;
+ }
+ 
+ 
+ #home-servicios h1, h2 {
+    text-align: left;
+    padding: 8px;
+ }
+ 
+ 
+ #home-servicios p {
+    text-align: left;
+    padding: 8px;
+ }
+ 
+ 
+ #home-galeria img {
+    max-width:300px;
+    padding:15px;
+    float: center;
+ }
+ 
+ 
+ #home-galeria h1, h2 {
+    text-align: left;
+    padding: 8px;
+ }
+ 
+ 
+ #home-galeria p {
+    text-align: left;
+    padding: 8px;
+ }
+ 
