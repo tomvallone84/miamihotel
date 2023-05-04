@@ -20,6 +20,9 @@
     <!--link bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
+    <!--link AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 <!--cabecera-->
@@ -28,14 +31,14 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-md">
-          <a class="header-img" href="index.html"><img src="img/logo.png" alt="Logo Miami Hotel" title="Logo Miami Hotel"></a>
+          <a data-aos="fade-right" class="header-img" href="index.html"><img src="img/logo.png" alt="Logo Miami Hotel" title="Logo Miami Hotel"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="pages/habitaciones.html">HABITACIONES</a>
@@ -71,7 +74,7 @@
 </div>
 
 
-<div class="welcome-text container-md">
+<div data-aos="fade-up" class="welcome-text container-md">
 
 
     <div class="row">
@@ -107,7 +110,7 @@
 </div>
 <hr>
 
-<div class="cards container-md">
+<div data-aos="fade-up" class="cards container-md">
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -203,6 +206,11 @@
   </div>
 
 </footer>
+<!--link JS AOS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ easing: "ease-out-back", duration: 1000});
+</script>
 
 <!-- JS  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
