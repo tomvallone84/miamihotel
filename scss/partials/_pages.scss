@@ -1,225 +1,220 @@
-#habitaciones-column img {
-    max-width:500px;
-    padding:15px;
-    float: center;
+#habitaciones-column {
+   img {
+     max-width: 500px;
+     padding: 15px;
+     float: center;
+   }
+ 
+   h1 {
+     text-align: left;
+     padding: 8px;
+   }
  }
  
- 
- 
- 
- #habitaciones-column h1, h2 {
-    text-align: left;
-    padding: 8px;
+ h2, #habitaciones-column p {
+   text-align: left;
+   padding: 8px;
  }
  
+ /* hero */
  
- #habitaciones-column p {
-    text-align: left;
-    padding: 8px;
+ .hero-img {
+   background-image: url("../img/pic-7.jpg");
+   height: 700px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+   /*padding: 50px 30px;
+   margin-bottom: 50px;*/
  }
-
- 
- 
-
-  /* hero */
-
-
-.hero-img {
-
-
-    background-image: url("../img/pic-7.jpg");
-    height: 700px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*padding: 50px 30px;
-    margin-bottom: 50px;*/
- }
- 
- 
- 
  
  /* Main button */
  
+ .boton {
+   border: 2px solid #76bbf4;
+   padding: 8px;
+   background-color: #76bbf4;
+   color: #ffffff;
+   font-family: 'Montserrat';
+   border-radius: 20px;
  
-  .boton {
-    border: 2px solid #76bbf4;
-    padding: 8px;
-    background-color: #76bbf4;
-    color: #ffffff;
-    font-family: 'Montserrat';
-    border-radius: 20px;
-    }
+   &:hover {
+     background: #fff;
+     color: #45a6f6;
  
+     a {
+       color: #45a6f6;
+     }
+   }
  
-    .boton:hover {
-        background: #fff;
-        color: #45a6f6
-    }
+   a {
+     text-decoration: none;
+     text-transform: none;
+     font-family: 'Montserrat';
+     color: #ffffff;
+     font-weight: 500;
+     line-height: 1.3;
+     font-size: 15px;
+   }
+ }
  
+ .welcome-text {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   padding-bottom: 50px;
+   padding-top: 100px;
+   row-gap: 20px;
+ }
  
-    .boton:hover a {
-        color: #45a6f6
-    }
+ @media only screen and (min-width: 600px) {
+   .welcome-text {
+     flex-direction: column;
+   }
+ }
  
- 
-    .boton a {
-        text-decoration: none;
-        text-transform: none;
-        font-family: 'Montserrat';
-        color: #ffffff;
-        font-weight: 500;
-        line-height: 1.3;
-        font-size: 15px;
- 
- 
-    }
- 
- 
-  .welcome-text {
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    margin: 0 auto;
-    padding-bottom: 50px;
-    padding-top: 100px;
-    row-gap: 20px;
- 
- 
-    }
- 
- 
- @media only screen and (min-width: 600px) { .welcome-text { flex-direction: column; }}
- @media only screen and (min-width: 768px) { .welcome-text { flex-direction: column; }}
- 
+ @media only screen and (min-width: 768px) {
+   .welcome-text {
+     flex-direction: column;
+   }
+ }
  
  .image-welcome img {
- 
- 
-    border-radius: 10px;
- 
- 
+   border-radius: 10px;
  }
- 
  
  hr {
-        height: 4px;
-        margin-left: 0%;
-        margin-right: 20%;
-        background-color: #a8e3fe;
-      }
- .cards {
-    padding-top: 50px;
-    padding-bottom: 100px;
+   height: 4px;
+   margin-left: 0%;
+   margin-right: 20%;
+   background-color: #a8e3fe;
  }
  
+ .cards {
+   padding-top: 50px;
+   padding-bottom: 100px;
+ }
  
  .parrafo-hab {
-    text-align: center;
+   text-align: center;
  }
- 
- 
- 
  
  .hero-pages-servicios {
- 
- 
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pic-9.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    display: grid;
-    place-items: center;
- 
- 
+   width: 100%;
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pic-9.jpg);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 250px;
+   display: grid;
+   place-items: center;
  }
  
+ @media only screen and (min-width: 768px) {
+   .hero-pages-servicios {
+     height: 250px;
+   }
+ }
  
- @media only screen and (min-width: 768px) { .hero-pages-servicios { height: 250px; }}
- @media only screen and (min-width: 992px) {.hero-pages-servicios { height: 300px;}}
- @media only screen and (min-width: 1200px) {.hero-pages-servicios { height: 350px;}}
+ @media only screen and (min-width: 992px) {
+   .hero-pages-servicios {
+     height: 300px;
+   }
+ }
  
- 
- 
+ @media only screen and (min-width: 1200px) {
+   .hero-pages-servicios {
+     height: 350px;
+   }
+ }
  
  .hero-pages-habitaciones {
- 
- 
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pic-2.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    display: grid;
-    place-items: center;
- 
- 
+   width: 100%;
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pic-2.jpg);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 250px;
+   display: grid;
+   place-items: center;
  }
  
+ @media only screen and (min-width: 768px) {
+   .hero-pages-habitaciones {
+     height: 250px;
+   }
+ }
  
- @media only screen and (min-width: 768px) { .hero-pages-habitaciones { height: 250px; }}
- @media only screen and (min-width: 992px) {.hero-pages-habitaciones { height: 300px;}}
- @media only screen and (min-width: 1200px) {.hero-pages-habitaciones { height: 350px;}}
+ @media only screen and (min-width: 992px) {
+   .hero-pages-habitaciones {
+     height: 300px;
+   }
+ }
  
- 
- 
+ @media only screen and (min-width: 1200px) {
+   .hero-pages-habitaciones {
+     height: 350px;
+   }
+ }
  
  .hero-pages-galeria {
- 
- 
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pic-1.jpeg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    display: grid;
-    place-items: center;
- 
- 
+   width: 100%;
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pic-1.jpeg);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 250px;
+   display: grid;
+   place-items: center;
  }
  
- 
- @media only screen and (min-width: 768px) { .hero-pages-galeria { height: 250px; }}
- @media only screen and (min-width: 992px) {.hero-pages-galeria { height: 300px;}}
- @media only screen and (min-width: 1200px) {.hero-pages-galeria { height: 350px;}}
- 
- 
- .galeria-container{
-    display: flex;
-    padding: 0px;
-    flex-wrap: wrap;
+ @media only screen and (min-width: 768px) {
+   .hero-pages-galeria {
+     height: 250px;
+   }
  }
  
- 
- .galeria-columna{
-    flex: 25%;
-    padding: 3px;
+ @media only screen and (min-width: 992px) {
+   .hero-pages-galeria {
+     height: 300px;
+   }
  }
  
- 
- .galeria-columna img{
-    margin-top: 5px;
+ @media only screen and (min-width: 1200px) {
+   .hero-pages-galeria {
+     height: 350px;
+   }
  }
  
- 
- @media (max-width: 800px){
-    .galeria-columna{
-        flex: 50%;
-    }
+ .galeria-container {
+   display: flex;
+   padding: 0px;
+   flex-wrap: wrap;
  }
  
+ .galeria-columna {
+   flex: 25%;
+   padding: 3px;
  
- @media (max-width: 600px){
-    .galeria-columna{
-        flex: 100%;
-    }
+   img {
+     margin-top: 5px;
+   }
  }
  
+ @media (max-width: 800px) {
+   .galeria-columna {
+     flex: 50%;
+   }
+ }
+ 
+ @media (max-width: 600px) {
+   .galeria-columna {
+     flex: 100%;
+   }
+ }

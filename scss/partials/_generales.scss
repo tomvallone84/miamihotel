@@ -1,183 +1,225 @@
 * {
-    margin:0;
-    padding:0;
+   margin: 0;
+   padding: 0;
  }
  
- 
  /* IMAGENES RESPONSIVAS*/
+ 
  img {
- 
- 
    max-width: 100%;
    height: auto;
  
- 
- /* GOOGLE FONT*/ 
+   /* GOOGLE FONT*/
  }
+ 
  @font-face {
-    font-family: 'Montserrat';
-    src: url('../assets/font/Montserrat.ttf');
+   font-family: 'Montserrat';
+   src: url('../assets/font/Montserrat.ttf');
  }
- 
  
  body {
-    font-family: 'Montserrat';
-    background-color: rgb(255, 255, 255);
-    overflow-x: hidden;
+   font-family: 'Montserrat';
+   background-color: rgb(255, 255, 255);
+   overflow-x: hidden;
  }
- 
  
  h2 {
-    font-family: 'Montserrat';
-    color:rgb(58, 58, 58);
-    font-size: 28px;
-    font-weight: 200;
+   font-family: 'Montserrat';
+   color: rgb(58, 58, 58);
+   font-size: 28px;
+   font-weight: 200;
  }
  
- 
  .texto-1 {
-    font-family: 'Montserrat';
-    color:rgb(55, 55, 55);
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 1.4;
-}  
-
-@media only screen and (min-width: 768px) { .texto-1 { font-size: 30px; }}
-@media only screen and (min-width: 992px) {.texto-1 { font-size: 40px;}}
-@media only screen and (min-width: 1200px) {.texto-1 { font-size: 40px;}}
-
-
-
-
-.texto-2 {
    font-family: 'Montserrat';
-   color:rgb(99, 99, 99);
+   color: rgb(55, 55, 55);
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 1.4;
+ }
+ 
+ @media only screen and (min-width: 768px) {
+   .texto-1 {
+     font-size: 30px;
+   }
+ }
+ 
+ @media only screen and (min-width: 992px) {
+   .texto-1 {
+     font-size: 40px;
+   }
+ }
+ 
+ @media only screen and (min-width: 1200px) {
+   .texto-1 {
+     font-size: 40px;
+   }
+ }
+ 
+ .texto-2 {
+   font-family: 'Montserrat';
+   color: rgb(99, 99, 99);
    font-size: 20px;
    font-weight: 300;
    line-height: 1.4;
-}
-
-
-@media only screen and (min-width: 768px) { .texto-2 { font-size: 20px; }}
-@media only screen and (min-width: 992px) {.texto-2 { font-size: 22px;}}
-@media only screen and (min-width: 1200px) {.texto-2 { font-size: 25px;}}
-
-
-.texto-3 {
+ }
+ 
+ @media only screen and (min-width: 768px) {
+   .texto-2 {
+     font-size: 20px;
+   }
+ }
+ 
+ @media only screen and (min-width: 992px) {
+   .texto-2 {
+     font-size: 22px;
+   }
+ }
+ 
+ @media only screen and (min-width: 1200px) {
+   .texto-2 {
+     font-size: 25px;
+   }
+ }
+ 
+ .texto-3 {
    font-family: 'Montserrat';
-   color:rgb(55, 55, 55);
+   color: rgb(55, 55, 55);
    font-size: 20px;
    font-weight: 600;
    line-height: 1.3;
    padding-top: 10px;
-}
-
-
-@media only screen and (min-width: 768px) { .texto-3 { font-size: 22px; }}
-@media only screen and (min-width: 992px) {.texto-3 { font-size: 22px;}}
-@media only screen and (min-width: 1200px) {.texto-3 { font-size: 25px;}}
-
-.texto-4 {
-    font-family: 'Montserrat';
-    color:rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.3;
-    padding-bottom: 20px;
  }
  
+ @media only screen and (min-width: 768px) {
+   .texto-3 {
+     font-size: 22px;
+   }
+ }
+ 
+ @media only screen and (min-width: 992px) {
+   .texto-3 {
+     font-size: 22px;
+   }
+ }
+ 
+ @media only screen and (min-width: 1200px) {
+   .texto-3 {
+     font-size: 25px;
+   }
+ }
+ 
+ .texto-4 {
+   font-family: 'Montserrat';
+   color: rgb(255, 255, 255);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.3;
+   padding-bottom: 20px;
+ }
  
  .texto-5 {
-    font-family: 'Montserrat';
-    color:rgb(255, 255, 255);
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 1.4;
-    align-items: center;
+   font-family: 'Montserrat';
+   color: rgb(255, 255, 255);
+   font-size: 35px;
+   font-weight: 400;
+   line-height: 1.4;
+   align-items: center;
  }
  
+ @media only screen and (min-width: 768px) {
+   .texto-5 {
+     font-size: 45px;
+   }
+ }
  
- @media only screen and (min-width: 768px) { .texto-5 { font-size: 45px; }}
- @media only screen and (min-width: 992px) {.texto-5 { font-size: 65px;}}
- @media only screen and (min-width: 1200px) {.texto-5 { font-size: 65px;}}
+ @media only screen and (min-width: 992px) {
+   .texto-5 {
+     font-size: 65px;
+   }
+ }
  
- 
- 
+ @media only screen and (min-width: 1200px) {
+   .texto-5 {
+     font-size: 65px;
+   }
+ }
  
  .texto-6 {
-    font-family: 'Montserrat';
-    color:rgb(55, 55, 55);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.3;
-    padding-bottom: 20px;
+   font-family: 'Montserrat';
+   color: rgb(55, 55, 55);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.3;
+   padding-bottom: 20px;
  }
-
+ 
  #body-text {
-    text-align: left;
-    font: size 11px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    color:rgb(77, 77, 77);
-    text-align: justify;
-    line-height: 1.7;
+   text-align: left;
+   font: size 11px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   color: rgb(77, 77, 77);
+   text-align: justify;
+   line-height: 1.7;
+ 
+   p {
+     text-align: left;
+     font: size 11px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: rgb(77, 77, 77);
+     text-align: justify;
+     line-height: 1.7;
+   }
  }
  
- 
- #body-text p {
-    text-align: left;
-    font: size 11px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color:rgb(77, 77, 77);
-    text-align: justify;
-    line-height: 1.7;
- }
-
  a {
-    font-family: 'Montserrat';
-    color:rgb(55, 55, 55);
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.3;
-    padding-top: 10px;
+   font-family: 'Montserrat';
+   color: rgb(55, 55, 55);
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 1.3;
+   padding-top: 10px;
  }
  
-
  form {
-    width: 500px;
-    text-align: left;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-  }
-   label {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 18px;
-  }
-   input,
-  textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-   input[type="submit"] {
-    background-color: #76BBF4;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-   input[type="submit"]:hover {
-    background-color: #4f92c9;
-  }
+   width: 500px;
+   text-align: left;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 10px;
+   font-size: 18px;
+ }
+ 
+ input, textarea {
+   width: 100%;
+   padding: 12px 20px;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: 16px;
+ }
+ 
+ input[type="submit"] {
+   background-color: #76BBF4;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ 
+   &:hover {
+     background-color: #4f92c9;
+   }
+ }
+ 
   
  
  

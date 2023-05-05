@@ -12,7 +12,6 @@ footer {
   font-size: 16px;
   line-height: 1;
 }
-
 #footer-info a {
   color: #fff;
   font-size: 14px;
@@ -29,18 +28,11 @@ footer {
 #footer-info .footer-logo {
   max-width: 250px;
 }
-
 #footer-info img {
   padding-bottom: 30px;
 }
 
-#footer-social {
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-#footer-map {
+#footer-social, #footer-map {
   padding: 20px;
   text-align: center;
   margin: 0 auto;
@@ -97,7 +89,6 @@ footer {
   background: #6f7c8e;
   color: #ffffff;
 }
-
 .fa:hover {
   opacity: 0.7;
 }
@@ -122,13 +113,6 @@ body {
   font-family: "Montserrat";
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
-}
-
-main {
-  /*margin-bottom: 100px;
-  margin-top: 50px;
-  margin-left:50px;
-  margin-right: 50px;*/
 }
 
 h2 {
@@ -259,7 +243,6 @@ h2 {
   text-align: justify;
   line-height: 1.7;
 }
-
 #body-text p {
   text-align: left;
   font: size 11px;
@@ -293,8 +276,7 @@ label {
   font-size: 18px;
 }
 
-input,
-textarea {
+input, textarea {
   width: 100%;
   padding: 12px 20px;
   margin-bottom: 20px;
@@ -312,7 +294,6 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
 input[type=submit]:hover {
   background-color: #4f92c9;
 }
@@ -339,7 +320,6 @@ header {
   top: 0;
   width: 100%;
 }
-
 .menu-header a {
   font-size: 14px;
 }
@@ -352,6 +332,20 @@ header {
 }*/
 #home-text {
   padding-top: 30px;
+}
+#home-text p {
+  text-align: left;
+  font: size 11px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: rgb(77, 77, 77);
+  text-align: justify;
+  line-height: 1.7;
+}
+#home-text img {
+  max-width: 500px;
+  padding: 15px;
+  float: center;
 }
 
 @media only screen and (min-width: 600px) {
@@ -376,26 +370,14 @@ header {
     padding-left: 30px;
   }
 }
-#home-text p {
-  text-align: left;
-  font: size 11px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  color: rgb(77, 77, 77);
-  text-align: justify;
-  line-height: 1.7;
-}
-
-#home-text img {
-  max-width: 500px;
-  padding: 15px;
-  float: center;
-}
-
 #home-habitaciones img {
   max-width: 300px;
   padding: 15px;
   float: center;
+}
+#home-habitaciones h1 {
+  text-align: left;
+  padding: 8px;
 }
 
 /*#home-habitaciones {
@@ -403,12 +385,7 @@ header {
    border-radius: 10px;
    border-color: beige;
 }*/
-#home-habitaciones h1, h2 {
-  text-align: left;
-  padding: 8px;
-}
-
-#home-habitaciones p {
+h2, #home-habitaciones p {
   text-align: left;
   padding: 8px;
 }
@@ -418,13 +395,12 @@ header {
   padding: 15px;
   float: center;
 }
-
-#home-servicios h1, h2 {
+#home-servicios h1 {
   text-align: left;
   padding: 8px;
 }
 
-#home-servicios p {
+h2, #home-servicios p {
   text-align: left;
   padding: 8px;
 }
@@ -434,13 +410,12 @@ header {
   padding: 15px;
   float: center;
 }
-
-#home-galeria h1, h2 {
+#home-galeria h1 {
   text-align: left;
   padding: 8px;
 }
 
-#home-galeria p {
+h2, #home-galeria p {
   text-align: left;
   padding: 8px;
 }
@@ -450,13 +425,12 @@ header {
   padding: 15px;
   float: center;
 }
-
-#habitaciones-column h1, h2 {
+#habitaciones-column h1 {
   text-align: left;
   padding: 8px;
 }
 
-#habitaciones-column p {
+h2, #habitaciones-column p {
   text-align: left;
   padding: 8px;
 }
@@ -482,16 +456,13 @@ header {
   font-family: "Montserrat";
   border-radius: 20px;
 }
-
 .boton:hover {
   background: #fff;
   color: #45a6f6;
 }
-
 .boton:hover a {
   color: #45a6f6;
 }
-
 .boton a {
   text-decoration: none;
   text-transform: none;
@@ -633,7 +604,6 @@ hr {
   flex: 25%;
   padding: 3px;
 }
-
 .galeria-columna img {
   margin-top: 5px;
 }
